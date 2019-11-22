@@ -1,6 +1,6 @@
 # Arduino Notification
 
-This application listens on serial port for one of the commands: 'mail' or 'nomail' and sets the servo position sets to a different value depending on the command.
+This application listens on serial port for one of the commands: 'mail' or 'nomail' and sets the servo position to a different value depending on the command.
 
 I use it to show envelope icon drawn on a piece of cardboard when I have unread messages on my mailbox.
 
