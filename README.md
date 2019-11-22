@@ -19,3 +19,5 @@ To access Gmail account from a custom application like this one, you'll need to 
 # Examples
 
 [![See on YouTube](./examples/yt_thumb.png)](https://youtu.be/KSkG34YOxcQ)
+
+[[PL] Artykuł na blogu](https://programisty-dzien-powszedni.pl/powiadamianie-o-nowej-poczcie-z-arduino)
