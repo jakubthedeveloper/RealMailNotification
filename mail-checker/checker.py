@@ -11,7 +11,7 @@ class App:
         parser = argparse.ArgumentParser(description='Application for checking and informing arduino if there are unread messages on imap mailbox.')
         parser.add_argument('--serial-port', default='/dev/ttyUSB0', help='Serial port for arduino communication')
         parser.add_argument('--imap-server', default='imap.gmail.com', help='Imap server hostname')
-        parser.add_argument('--imap-user', default='/dev/ttyUSB0', help='Imap account name', required=True)
+        parser.add_argument('--imap-user', help='Imap account name', required=True)
         args = parser.parse_args()
 
         self.mail = imaplib.IMAP4_SSL(args.imap_server)

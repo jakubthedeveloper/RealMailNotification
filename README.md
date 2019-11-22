@@ -10,6 +10,10 @@ Usage:
 
 `python3 checker.py [-h] [--serial-port SERIAL_PORT] [--imap-server IMAP_SERVER] --imap-user IMAP_USER`
 
+--serial-port - serial port to send data to arduino, default: /dev/ttyUSB0
+--imap-server - imap server, default: imap.gmail.com
+--imap-user - imap account name, for example: john.doe@gmail.com, required
+
 This application checks if there are unread messages on mailbox and sends 'mail' or 'nomail' string on serial port.
 
 ## GMail security.
