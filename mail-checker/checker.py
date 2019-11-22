@@ -6,8 +6,6 @@ import time
 import serial
 import argparse
 
-# Allow access on https://myaccount.google.com/lesssecureapps
-
 class App:
     def __init__(self):
         parser = argparse.ArgumentParser(description='Application for checking and informing arduino if there are unread messages on imap mailbox.')
